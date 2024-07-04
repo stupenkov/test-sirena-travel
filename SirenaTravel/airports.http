@@ -1,0 +1,13 @@
+
+// bad request
+GET https://localhost:5001/airports/AMS
+
+###
+
+// bad request 
+GET https://localhost:5001/airports/AMS?airport1=SVO&airport2=ORR
+
+###
+
+// good request
+GET https://localhost:5001/airports/AMS?airport1=SVO&airport2=OMS
